@@ -1,7 +1,7 @@
 import java.util.Scanner;
 /*Class: CMSC203
  * Instructor: Dr.Alexander
- * Due 9/14/21
+ * Due 9/16/21
  * Platform compiler:
  * I pledge that I have completed the programming assignment independently
  * I have not copied the code from a student or any source
@@ -24,7 +24,7 @@ public class NumericTypes {
 		double fToC; // temperature in Celsius
 		double average; // arithmetic average
 		String output; // line of output to print out
-		//Task #2 declare a variable to hold the user’s temperature
+		//Task #2 declare a variable to hold the userâ€™s temperature
 		double temp;
 		//Task #2 prompt user to input score1
 		System.out.print("Enter the value for score 1:");
@@ -40,13 +40,13 @@ public class NumericTypes {
 		System.out.println(output);
 		//Task #2 prompt user to input another temperature
 		System.out.println("Enter the value for Fahrenheit:");
-		//Task #2 read the user’s temperature in Fahrenheit
+		//Task #2 read the userâ€™s temperature in Fahrenheit
 		temp =  input.nextDouble();
 		// Convert Fahrenheit temperatures to Celsius
 		fToC = 5.0/9 * (temp - 32);
 		output = temp + " in Fahrenheit is " + fToC + " in Celsius.";
 		System.out.println(output);
-		//Task #2 print the user’s temperature in Celsius
+		//Task #2 print the userâ€™s temperature in Celsius
 		System.out.println("Goodbye"); // to show that the program is ended	
 	}
 }
